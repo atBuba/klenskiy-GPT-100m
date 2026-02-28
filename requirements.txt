@@ -1,0 +1,8 @@
+torch>=2.0.0
+numpy
+sentencepiece
+huggingface_hub
+
+# Опционально:
+# wandb                        # Мониторинг обучения (USE_WANDB=True в train.py)
+# transformer-engine[pytorch]  # FP8/FP4 на Hopper/Blackwell GPU
