@@ -1,0 +1,23 @@
+{
+  "model_type": "BPE (SentencePiece)",
+  "vocab_size": 32000,
+  "model_file": "tokenizer.model",
+  "vocab_file": "tokenizer.vocab",
+  "special_tokens": {
+    "<unk>": 0,
+    "<s>": 1,
+    "</s>": 2
+  },
+  "user_defined_symbols": {
+    "<|endoftext|>": 4,
+    "<|padding|>": 3,
+    "<|sep|>": 5,
+    "<|mask|>": 6
+  },
+  "character_coverage": 0.9995,
+  "byte_fallback": true,
+  "split_digits": true,
+  "normalization": "identity",
+  "training_data": "ruwiki_full.txt",
+  "training_time_minutes": 9.9
+}

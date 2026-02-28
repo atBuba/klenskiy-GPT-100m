@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data (скачивается через download_data.py, токенизируется через dataset.py)
+data/ruwiki_full.txt
+data/train.bin
+data/val.bin
+data/all_tokens.bin
+
+# Checkpoints (генерируются при обучении)
+checkpoints/*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
